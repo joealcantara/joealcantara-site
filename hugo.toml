@@ -1,0 +1,65 @@
+baseURL = 'https://joealcantara.com/'
+languageCode = 'en-us'
+title = 'Joe Alcantara'
+theme = 'PaperMod'
+
+[params]
+  author = "Joe Alcantara"
+  description = "AI Safety Researcher"
+
+  # Show reading time and word count
+  ShowReadingTime = true
+  ShowWordCount = true
+
+  # Show breadcrumbs
+  ShowBreadCrumbs = true
+
+  # Show post navigation
+  ShowPostNavLinks = true
+
+  # Show code copy buttons
+  ShowCodeCopyButtons = true
+
+  # Home page profile mode
+  [params.homeInfoParams]
+    Title = "Joe Alcantara"
+    Content = "AI Safety Researcher exploring few-shot catastrophe prevention"
+
+  # Social links
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:jomar.alcantara@gmail.com"
+
+# Menu
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "research"
+    name = "Research"
+    url = "/research/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/posts/"
+    weight = 40
+
+# Build settings
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
