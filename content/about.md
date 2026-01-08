@@ -26,7 +26,7 @@ I'm currently working on Paper 1: A benchmark framework for evaluating catastrop
 
 ## Background
 
-- PhD researcher in AI Safety (Interpretable World Models, Catastrophe Prevention, Infrastructure Sovereignty)
+- AI Safety Researcher (Interpretable World Models, Catastrophe Prevention, Infrastructure Sovereignty)
 - Teaching Fellow at University of Warwick
 - SFHEA (Senior Fellow of the Higher Education Academy) candidate
 

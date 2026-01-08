@@ -23,7 +23,7 @@ theme = 'PaperMod'
   # Home page profile mode
   [params.homeInfoParams]
     Title = "Joe Alcantara"
-    Content = "AI Safety Researcher | PhD candidate exploring interpretable world models, catastrophe prevention, and infrastructure sovereignty"
+    Content = "AI Safety Researcher exploring interpretable world models, catastrophe prevention, and infrastructure sovereignty"
 
   # Social links
   [[params.socialIcons]]
