@@ -34,6 +34,10 @@ theme = 'PaperMod'
     name = "email"
     url = "mailto:jomar.alcantara@gmail.com"
 
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/joealcantara_"
+
 # Menu
 [menu]
   [[menu.main]]

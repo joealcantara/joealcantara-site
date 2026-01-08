@@ -34,6 +34,7 @@ I'm currently working on Paper 1: A benchmark framework for evaluating catastrop
 
 - Email: jomar.alcantara@gmail.com
 - GitHub: [joealcantara](https://github.com/joealcantara)
+- Twitter/X: [@joealcantara_](https://twitter.com/joealcantara_)
 
 ---
 
