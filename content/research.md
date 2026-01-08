@@ -4,9 +4,32 @@ draft = false
 title = 'Research'
 +++
 
-## Few-Shot Catastrophe Prevention
+My research spans three interconnected areas in AI safety and infrastructure:
 
-My research explores a critical question in AI safety: **When we catch AI misbehavior, what's the best way to use that information?**
+## 1. Scientist AI: Interpretable World Models Without Agency
+
+**Research Question:** Can we build safer, more interpretable AI through passive causal world model learning?
+
+### The Core Idea
+
+Most AI systems optimize for goals using black-box methods, creating misalignment risks (deceptive alignment, instrumental convergence). What if we remove agency entirely while retaining learning capability? The Scientist AI approach learns interpretable causal world models without goal-seeking behavior.
+
+### My Approach
+
+- Implementing Scientist AI at scale to demonstrate practical tractability
+- Developing novel algorithms for causal structure and theory language search
+- Empirically characterizing when and where interpretable world models work
+- Analyzing safety properties of passive learning systems
+
+### Key Hypothesis
+
+Removing agency (affordances + goal-seeking) while retaining learning capability creates inherently safer AI. No instrumental convergence, no deceptive alignment, interpretable failure modes, verifiable objectives.
+
+---
+
+## 2. Few-Shot Catastrophe Prevention
+
+**Research Question:** When we catch AI misbehavior, what's the best way to use that information?
 
 ### The Core Problem
 
@@ -41,6 +64,38 @@ This research direction was validated through pilot studies in December 2025:
 ### One-Line Pitch
 
 *"When we catch AI misbehavior, what's the best way to use that information? I'm building a benchmark to compare techniques and found that [results TBD]."*
+
+---
+
+## 3. Infrastructure Sovereignty & Digital Vassalage
+
+**Research Question:** Can nations achieve "Sovereign AI" without owning the physical or cloud infrastructure?
+
+### The Core Problem
+
+Middle-power nations like the Philippines face a critical strategic choice: adopt AI built entirely on foreign-owned "rented" infrastructure (AWS, Microsoft, Google), or pursue digital sovereignty. This creates a 21st-century form of Digital Vassalage where national wealth flows continuously to foreign cloud providers as subscription fees for essential services.
+
+### Comparative Analysis
+
+**UK Model (Tiered Sovereignty):**
+- Cybersecurity and Resilience Bill regulates data centers as critical infrastructure
+- Retains control over critical nodes while using foreign cloud providers
+- Strategic adaptation with policy guardrails
+
+**Philippines Model (Client-State):**
+- National AI Strategy 2.0 built on complete cloud dependency
+- No domestic data center infrastructure for critical systems
+- Pure dependency on foreign triopoly
+
+### Key Themes
+
+- **Infrastructure as Territory:** Data centers and GPU clusters as the "new land" of the intelligence economy
+- **Cloud Rent-Seeking:** Continuous extraction of national wealth as subscription fees
+- **Strategic Adaptation:** Policy options for middle-power nations navigating the "compute trap"
+
+### Research Approach
+
+Examining how the UK's regulatory approach (2024-2028) compares with the Philippines' dependency model to identify policy guardrails and strategic options for developing nations in the AI era.
 
 ---
 
