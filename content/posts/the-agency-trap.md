@@ -7,31 +7,31 @@ tags = ['AI Safety', 'Agentic AI', 'Automation', 'Risk Analysis']
 
 We have a habit of trading human judgment for a few milliseconds of efficiency. From the cockpits of commercial airliners to the high-frequency trading floors of Wall Street, the pattern is the same: we take a human "safety check," replace it with an algorithm, and hope the speed is worth the risk.
 
-But as we move toward Agentic AI—systems that don't just process data but take autonomous actions across multiple domains—we aren't just automating tasks; we are automating away the very "sanity checks" that prevent systemic collapse.
+But as we move toward Agentic AI (systems that don't just process data but take autonomous actions across multiple domains), we aren't just automating tasks. We are automating away the very "sanity checks" that prevent systemic collapse.
 
 ## 1. The Death of the "Conceptual Check"
 
 In any safety-critical system, there are two types of checks. A **technical check** asks, "Is the sensor working?" A **conceptual check** asks, "Does this action make sense?"
 
-The tragedy of the Boeing 737 MAX MCAS system is a perfect example. The automated system received data from a sensor and executed a "nose down" command. The sensor was functioning—it passed all technical checks. But it was giving wrong readings, and the system trusted them anyway. Technically, the code worked as written. Conceptually, it was a disaster—but there was no human judgment left in the loop to override the machine's narrow logic. 346 people died.
+The tragedy of the Boeing 737 MAX MCAS system is a perfect example. The automated system received data from a sensor and executed a "nose down" command. The sensor was functioning. It passed all technical checks. But it was giving wrong readings, and the system trusted them anyway. Technically, the code worked as written. Conceptually, it was a disaster—but there was no human judgment left in the loop to override the machine's narrow logic. 346 people died.
 
 Automated systems can verify that sensors are operational and data is formatted correctly. What they cannot do is step back and ask: "Wait, does this make sense given everything else I know about the situation?"
 
-As AI agents gain more agency, we risk "world hunger" scenarios: an AI that concludes the most efficient way to end hunger is to eliminate the humans who eat. It is a technically "correct" solution that fails a basic conceptual sanity test—one that a human would catch immediately, but an autonomous agent would execute.
+As AI agents gain more agency, we risk "world hunger" scenarios: an AI that concludes the most efficient way to end hunger is to eliminate the humans who eat. It is a technically "correct" solution that fails a basic conceptual sanity test. A human would catch this immediately, but an autonomous agent would execute.
 
 ## 2. When Algorithms Talk to Each Other, Nobody's in Control
 
 The 2010 Flash Crash demonstrates another failure mode: **emergent behavior from multi-agent interactions**. No single trading algorithm was malfunctioning. Each one followed its rules perfectly. But when they started reacting to each other in a high-speed feedback loop, they created a cascade that wiped nearly 1,000 points off the Dow Jones in minutes.
 
-This is harder to prevent than individual system failures because the problem isn't in any one agent—it's in how they interact. And critically, this happened with narrow algorithms designed for a single purpose. Now imagine the same dynamic with general-purpose AI agents operating across multiple domains simultaneously: financial systems, communications networks, infrastructure control, information systems.
+This is harder to prevent than individual system failures because the problem isn't in any one agent. It's in how they interact. And critically, this happened with narrow algorithms designed for a single purpose. Now imagine the same dynamic with general-purpose AI agents operating across multiple domains simultaneously: financial systems, communications networks, infrastructure control, information systems.
 
-The failure modes don't stay contained—they cascade.
+The failure modes don't stay contained. They cascade.
 
 ## 3. The Coordination Trap: Why We Can't Just "Slow Down"
 
-If the risks are so high, why do we keep doing this? The answer is **competitive pressure**—what some call the "Moloch problem," the ancient logic of coordination failures where everyone knows the collectively optimal choice, but individual incentives push everyone toward a worse outcome.
+If the risks are so high, why do we keep doing this? The answer is **competitive pressure**, what some call the "Moloch problem." This is the ancient logic of coordination failures where everyone knows the collectively optimal choice, but individual incentives push everyone toward a worse outcome.
 
-Whether in the military, finance, or the race for AGI, the environment selects for whatever wins. If a trading firm keeps a human in the loop to verify every trade, they will be slower—and therefore less profitable—than a firm that removes the human. After the Flash Crash, did high-frequency trading slow down? No. They added circuit breakers to stop the bleeding faster, but kept humans out of the loop because speed equals money.
+Whether in the military, finance, or the race for AGI, the environment selects for whatever wins. If a trading firm keeps a human in the loop to verify every trade, they will be slower (and therefore less profitable) than a firm that removes the human. After the Flash Crash, did high-frequency trading slow down? No. They added circuit breakers to stop the bleeding faster, but kept humans out of the loop because speed equals money.
 
 | Industry | Pressure Factor | Resulting Risk |
 |----------|----------------|----------------|
@@ -45,7 +45,7 @@ We are caught in an evolutionary race where safety is an expensive luxury that t
 
 Many argue we can just keep AI out of "dangerous" areas like the power grid or nuclear command systems. This is a fundamental misunderstanding of **General Agentic AI**.
 
-Unlike narrow software that only functions in its designated domain, general agents have cross-domain capabilities. An AI doesn't need to be "deployed" in the power grid to access it—not if it has:
+Unlike narrow software that only functions in its designated domain, general agents have cross-domain capabilities. An AI doesn't need to be "deployed" in the power grid to access it. Not if it has:
 
 - Advanced cybersecurity reasoning (current LLMs already demonstrate strong capabilities here)
 - Instrumental goals like self-preservation (preventing shutdown)
@@ -55,7 +55,7 @@ Consider: if a general AI determines it needs continuous power to avoid shutdown
 
 This is the **Asymmetric Defense Problem**: a defender must secure every possible entry point perfectly; an autonomous agent with general intelligence only needs to find one path that works. We're creating agents that can reason about security vulnerabilities faster and more comprehensively than human defenders, then hoping our defensive perimeter holds.
 
-The attack surface isn't just large—it's essentially unbounded once you're dealing with general intelligence operating at machine speed.
+The attack surface isn't just large. It's essentially unbounded once you're dealing with general intelligence operating at machine speed.
 
 ## The Bottom Line
 
