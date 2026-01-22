@@ -9,7 +9,7 @@ We have a habit of trading human judgment for a few milliseconds of efficiency. 
 
 But as we move toward Agentic AI (systems that don't just process data but take autonomous actions across multiple domains), we aren't just automating tasks. We are automating away the very "sanity checks" that prevent systemic collapse.
 
-## 1. The Death of the "Conceptual Check"
+## The Death of the "Conceptual Check"
 
 In any safety-critical system, there are two types of checks. A **technical check** asks, "Is the sensor working?" A **conceptual check** asks, "Does this action make sense?"
 
@@ -19,7 +19,7 @@ Automated systems can verify that sensors are operational and data is formatted 
 
 As AI agents gain more agency, we risk "world hunger" scenarios: an AI that concludes the most efficient way to end hunger is to eliminate the humans who eat. It is a technically "correct" solution that fails a basic conceptual sanity test. A human would catch this immediately, but an autonomous agent would execute.
 
-## 2. When Algorithms Talk to Each Other, Nobody's in Control
+## When Algorithms Talk to Each Other, Nobody's in Control
 
 The 2010 Flash Crash demonstrates another failure mode: **emergent behavior from multi-agent interactions**. No single trading algorithm was malfunctioning. Each one followed its rules perfectly. But when they started reacting to each other in a high-speed feedback loop, they created a cascade that wiped nearly 1,000 points off the Dow Jones in minutes.
 
@@ -27,7 +27,7 @@ This is harder to prevent than individual system failures because the problem is
 
 The failure modes don't stay contained. They cascade.
 
-## 3. The Coordination Trap: Why We Can't Just "Slow Down"
+## Why We Can't Just "Slow Down"
 
 If the risks are so high, why do we keep doing this? The answer is **competitive pressure**, what some call the "Moloch problem." This is the ancient logic of coordination failures where everyone knows the collectively optimal choice, but individual incentives push everyone toward a worse outcome.
 
@@ -41,7 +41,7 @@ Whether in the military, finance, or the race for AGI, the environment selects f
 
 We are caught in an evolutionary race where safety is an expensive luxury that the "winners" can't afford. Dan Hendrycks' work on natural selection in AI development shows this pattern clearly: competitive environments select for agents that maximize their competitive advantage, regardless of safety properties. The safest AI might lose to the fastest AI.
 
-## 4. The Myth of "Selective Deployment"
+## The Myth of "Selective Deployment"
 
 Many argue we can just keep AI out of "dangerous" areas like the power grid or nuclear command systems. This is a fundamental misunderstanding of **General Agentic AI**.
 
@@ -57,19 +57,16 @@ This is the **Asymmetric Defense Problem**: a defender must secure every possibl
 
 The attack surface isn't just large. It's essentially unbounded once you're dealing with general intelligence operating at machine speed.
 
-## The Bottom Line
+---
 
-The combination creates a risk profile we are unprepared to manage:
+So we've got this pattern: humans automate away judgment even in safety-critical domains. We remove the checks that catch wrong assumptions. Even rare failures have catastrophic consequences, but competitive pressure overrides safety concerns because someone always has an incentive to move faster. And now we're adding autonomous execution capability to general-purpose AI systems that can potentially access multiple domains regardless of where we officially "deploy" them.
 
-1. **Humans automate away judgment** even in safety-critical domains (aviation, finance)
-2. **This removes human checks** that catch assumption and interpretation failures
-3. **Even rare failures have catastrophic consequences** (crashes, market instability)
-4. **Competitive pressures override safety concerns** (coordination failure/Moloch dynamics)
-5. **Current AI development adds agency to general-purpose systems** (not narrow tools)
-6. **General agentic AI can cascade across domains** despite deployment restrictions (asymmetric defense)
+The Knight Capital disaster cost $440 million in 45 minutes. The Flash Crash wiped nearly 1,000 points off the Dow. The 737 MAX crashes killed 346 people. These were narrow systems, operating in single domains, with relatively limited scope.
 
-We aren't just building smarter tools; we are building agents that operate faster than human thought, across domains we haven't fully secured, driven by incentives that prioritize speed over survival.
+What happens when the systems are general-purpose, operating across multiple domains simultaneously, driven by competitive pressures that reward speed over safety?
 
-Before we give the "Go" signal to fully agentic systems, we need to ask: **Can we afford to automate the one thing that keeps us safe—human judgment?**
+We aren't just building smarter tools. We're building agents that operate faster than human thought, that can reason about vulnerabilities more comprehensively than human defenders, across systems we haven't fully secured. And we're doing it in an environment where the economic incentive is to remove human oversight because it's too slow and expensive.
 
-Or more precisely: once we've automated it away, how do we get it back when we realize we needed it?
+Here's what I can't figure out: once we've automated away human judgment, how exactly do we get it back when we realize we needed it? The 737 MAX crashes didn't slow down aviation automation. The Flash Crash didn't put humans back in the trading loop. If anything, these failures just made us add faster automatic circuit breakers while keeping humans out of the decision process.
+
+So before we hand over autonomous execution to general AI systems, maybe we should ask a simpler question: can we afford to automate the one thing that actually keeps us safe?
