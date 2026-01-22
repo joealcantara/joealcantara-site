@@ -4,25 +4,21 @@ draft = false
 title = 'About'
 +++
 
-I'm an AI safety researcher with interests spanning technical AI safety and the geopolitical dimensions of AI infrastructure.
+I'm an AI safety researcher exploring the philosophical foundations of AI systems and the geopolitical dimensions of AI infrastructure.
 
 ## Research Interests
 
-### 1. Scientist AI: Interpretable World Models Without Agency
+### AI Epistemology (Primary Focus)
 
-Can we build safer, more interpretable AI through passive causal world model learning? I'm exploring how removing agency (goal-seeking behavior) while retaining learning capability can create inherently safer AI systems. This involves implementing Scientist AI at scale to demonstrate that interpretable causal world models are both practical and safer than black-box optimization.
+Can we meaningfully separate epistemic AI (truth-tracking systems) from instrumental AI (goal-pursuing systems)? I'm investigating the conceptual and practical viability of this distinction, examining whether AI systems can be designed primarily for knowledge acquisition rather than goal achievement, and exploring the safety implications of prioritizing epistemic over instrumental functions.
 
-### 2. Few-Shot Catastrophe Prevention
-
-When we catch AI misbehavior, what's the best way to use that information to prevent future failures? I'm investigating how to detect and prevent AI catastrophes using learned causal structures from limited examples, building systematic benchmarks to compare prevention techniques like probes, fine-tuning, and monitoring.
-
-### 3. Infrastructure Sovereignty & Digital Vassalage
+### Infrastructure Sovereignty (Background)
 
 Can nations achieve "Sovereign AI" without owning the physical or cloud infrastructure? I'm examining the power dynamics between nation-states and the cloud provider triopoly (AWS/Microsoft/Google), comparing the UK's "Tiered Sovereignty" model with the Philippines' "Client-State" model to understand infrastructure as territory and the implications of cloud rent-seeking.
 
 ## Current Work
 
-I'm currently working on Paper 1: A benchmark framework for evaluating catastrophe prevention techniques. This work builds on pilot studies that validated the research direction and identified a 4-paper research arc.
+I'm preparing a paper for the IACAP 2027 conference exploring the epistemic/instrumental distinction in AI systems. This work tests the viability of my research direction before pursuing PhD applications.
 
 ## Background
 

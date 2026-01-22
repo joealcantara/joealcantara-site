@@ -4,44 +4,33 @@ draft = false
 title = 'Research'
 +++
 
-My research spans three interconnected areas in AI safety and infrastructure:
+My research explores the philosophical foundations of AI systems and infrastructure sovereignty.
 
-## 1. Scientist AI: Interpretable World Models Without Agency
+## AI Epistemology (Primary Focus)
 
-**Research Question:** Can we build safer, more interpretable AI through passive causal world model learning?
-
-### Core Problem
-
-Most AI systems optimize for goals using black-box methods, creating misalignment risks (deceptive alignment, instrumental convergence). What if we remove agency entirely while retaining learning capability? The Scientist AI approach learns interpretable causal world models without goal-seeking behavior - no instrumental convergence, no deceptive alignment, interpretable failure modes, verifiable objectives.
-
-### My Approach
-
-- Implementing Scientist AI at scale to demonstrate practical tractability
-- Developing novel algorithms for causal structure and theory language search
-- Empirically characterizing when and where interpretable world models work
-- Analyzing safety properties of passive learning systems
-
----
-
-## 2. Few-Shot Catastrophe Prevention
-
-**Research Question:** When we catch AI misbehavior, what's the best way to use that information?
+**Research Question:** Can we meaningfully separate epistemic AI (truth-tracking) from instrumental AI (goal-pursuing)?
 
 ### Core Problem
 
-Current AI safety research often assumes we have massive datasets of examples showing what we want AI systems to avoid. But in practice, we might only catch a handful of catastrophic behaviors before something goes seriously wrong. Can we effectively prevent catastrophes from just a few caught examples?
+AI safety often focuses on aligning AI systems with human values - but this assumes AI must be goal-directed (instrumental). What if we could build AI systems whose primary function is knowledge acquisition rather than goal achievement? Can we design systems that are fundamentally epistemic (truth-tracking) rather than instrumental (goal-seeking)?
+
+This distinction matters for safety: instrumental AI systems face alignment problems (deceptive alignment, instrumental convergence, goal misgeneralization). Epistemic AI systems might avoid these risks by not having goals to misalign in the first place.
 
 ### My Approach
 
-I'm building systematic benchmarks to compare different prevention techniques:
+I'm investigating this through philosophical analysis:
+- **Defining the distinction:** What makes an AI system "epistemic" vs "instrumental"?
+- **Conceptual viability:** Is this a coherent distinction or a false dichotomy?
+- **Practical implications:** Can we build systems that are primarily epistemic?
+- **Safety properties:** Would epistemic AI actually be safer?
 
-- **Probes**: Can we detect dangerous patterns from few examples?
-- **Fine-tuning**: Does training on caught examples help, or does it teach the model to hide misbehavior?
-- **Monitoring**: What's the tradeoff between control and alignment?
+**Current work:** IACAP 2027 conference paper developing these definitions and exploring the conceptual foundations.
+
+**Strategy:** Testing viability of this research direction through conference paper before PhD application to University of Birmingham.
 
 ---
 
-## 3. Infrastructure Sovereignty & Digital Vassalage
+## Infrastructure Sovereignty & Digital Vassalage (Background)
 
 **Research Question:** How do nations without economic leverage negotiate fair terms for AI infrastructure in an oligopolistic market?
 
@@ -62,4 +51,4 @@ I'm systematically analyzing the **terms** of AI infrastructure dependency (not 
 
 ---
 
-For technical details and daily progress, see my [research blog](/posts/).
+For updates and progress, see my [research blog](/posts/).
