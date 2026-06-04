@@ -4,50 +4,33 @@ draft = false
 title = 'Research'
 +++
 
-My research explores the philosophical foundations of AI systems and infrastructure sovereignty.
+My research programme — Psychology-Grounded AI Learning — asks whether grounding AI systems in the principles developmental psychology has established for genuine understanding produces systems that fail less systematically than those trained on statistical co-occurrence alone.
 
-## AI Epistemology (Primary Focus)
-
-**Research Question:** Can we meaningfully separate epistemic AI (truth-tracking) from instrumental AI (goal-pursuing)?
-
-### Core Problem
-
-AI safety often focuses on aligning AI systems with human values - but this assumes AI must be goal-directed (instrumental). What if we could build AI systems whose primary function is knowledge acquisition rather than goal achievement? Can we design systems that are fundamentally epistemic (truth-tracking) rather than instrumental (goal-seeking)?
-
-This distinction matters for safety: instrumental AI systems face alignment problems (deceptive alignment, instrumental convergence, goal misgeneralization). Epistemic AI systems might avoid these risks by not having goals to misalign in the first place.
-
-### My Approach
-
-I'm investigating this through philosophical analysis:
-- **Defining the distinction:** What makes an AI system "epistemic" vs "instrumental"?
-- **Conceptual viability:** Is this a coherent distinction or a false dichotomy?
-- **Practical implications:** Can we build systems that are primarily epistemic?
-- **Safety properties:** Would epistemic AI actually be safer?
-
-**Current work:** IACAP 2027 conference paper developing these definitions and exploring the conceptual foundations.
-
-**Strategy:** Testing viability of this research direction through conference paper before PhD application to University of Birmingham.
+Current AI failures are not incidental. A system that recommends walking to a car wash has no world model. A system that cannot count letters in a word has no grounded structural representation. These failures are predictable architectural consequences of training on static, randomly ordered corpora with fixed architectures — and developmental psychology tells us something about why.
 
 ---
 
-## Infrastructure Sovereignty & Digital Vassalage (Background)
+## Track 1 — Epistemic vs Instrumental AI
 
-**Research Question:** How do nations without economic leverage negotiate fair terms for AI infrastructure in an oligopolistic market?
+**Research question:** Is the epistemic/instrumental distinction formally coherent, and what safety properties does it guarantee?
 
-### Core Problem
+The field conflates two categorically different things: systems that *produce knowledge* and systems that *pursue goals*. A system without goals cannot deceive — there is nothing to hide. The safety-relevant failures of AI concentrate in the instrumental category. This track establishes the distinction formally, grounded in the belief/desire literature (Hume, Dennett), intentionality theory (Searle), and recent AI safety work (Bengio et al.).
 
-Middle-power nations like the Philippines face a critical strategic choice: adopt AI built entirely on foreign-owned "rented" infrastructure (AWS, Microsoft, Google), or pursue digital sovereignty. This creates a 21st-century form of **Digital Vassalage** where national wealth flows continuously to foreign cloud providers as subscription fees for essential services.
+---
 
-The Philippine government gets worse deals for compute and AI services compared to how the UK negotiates. This pattern extends to all uncompetitive economies - the global AI infrastructure market replicates existing power hierarchies. Wealthy nations with regulatory leverage negotiate favorable terms; smaller economies pay retail prices with no strategic benefits.
+## Track 2 — Memory Architecture and Retrieval Quality
 
-The Philippines has ~1.3 million jobs in the BPO industry (call centers, back-office services). AI threatens this directly, creating a brutal trilemma:
-1. Adopt AI aggressively → unemployment crisis in BPO sector
-2. Resist AI adoption → become economically irrelevant
-3. Become AI-dependent without infrastructure → permanent vassalage with no control over the tech displacing your workforce
+**Research question:** Is context window size the right metric for memory in language models?
 
-### My Approach
+Cowan's embedded-processes model establishes that working memory is activated long-term memory, with approximately four chunks in the attentional focus at any moment. The constraint is not buffer size — it is retrieval quality. A chess grandmaster holds four chunks in working memory but navigates decades of pattern knowledge in milliseconds via fast associative retrieval. This track argues for retrieval quality as the primary benchmark dimension and designs a benchmark instrument from six cognitive science dimensions.
 
-I'm systematically analyzing the **terms** of AI infrastructure dependency (not just whether it exists). This involves documenting what deals are being struck and quantifying cost differentials between nations, analyzing why markets can't fix bargaining asymmetries in oligopolistic infrastructure markets, and identifying strategic options for uncompetitive economies through hybrid models, regional cooperation, and policy creativity.
+---
+
+## Track 3 — Developmental Architecture for Language Models
+
+**Research question:** Does a model whose architecture grows in response to its own representational limits produce different internal structure than a fixed-architecture model trained on the same staged data?
+
+Piaget established that concrete operational thinking precedes formal operational thinking. Vygotsky established that new learning must attach to existing knowledge structures. Pearl established that genuine causal reasoning requires representations at the interventional level. Current training regimes implement none of these principles. This track tests computationally whether they matter — through staged language acquisition experiments in which model capacity grows dynamically rather than being fixed at architecture design time.
 
 ---
 

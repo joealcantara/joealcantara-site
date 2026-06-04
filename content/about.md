@@ -4,34 +4,33 @@ draft = false
 title = 'About'
 +++
 
-I'm an AI safety researcher exploring the philosophical foundations of AI systems and the geopolitical dimensions of AI infrastructure.
+I work at the intersection of cognitive science, philosophy of mind, and machine learning. My research asks whether grounding AI systems in the principles developmental psychology has established for genuine understanding — Piaget, Vygotsky, Pearl — produces systems that fail less systematically than those trained on statistical co-occurrence alone.
 
-## Research Interests
+## Research Programme: Psychology-Grounded AI Learning
 
-### AI Epistemology (Primary Focus)
+Three tracks, four papers, one motivating problem. Current AI failures are not incidental — they are predictable architectural consequences of how systems are trained. Developmental psychology offers a framework for why, and a direction for how to build differently.
 
-Can we meaningfully separate epistemic AI (truth-tracking systems) from instrumental AI (goal-pursuing systems)? I'm investigating the conceptual and practical viability of this distinction, examining whether AI systems can be designed primarily for knowledge acquisition rather than goal achievement, and exploring the safety implications of prioritizing epistemic over instrumental functions.
+**Track 1 — Epistemic vs Instrumental AI (primary)**
+The field conflates systems that produce knowledge with systems that pursue goals. A system without goals cannot deceive. This track establishes the epistemic/instrumental distinction formally, grounded in the belief/desire literature and recent AI safety work.
 
-### Infrastructure Sovereignty (Background)
+**Track 2 — Memory Architecture and Retrieval Quality**
+Context window size is the wrong metric for memory in language models. The constraint is retrieval quality, not buffer size. This track argues for retrieval quality as the primary benchmark dimension and designs a benchmark from six cognitive science dimensions.
 
-Can nations achieve "Sovereign AI" without owning the physical or cloud infrastructure? I'm examining the power dynamics between nation-states and the cloud provider triopoly (AWS/Microsoft/Google), comparing the UK's "Tiered Sovereignty" model with the Philippines' "Client-State" model to understand infrastructure as territory and the implications of cloud rent-seeking.
-
-## Current Work
-
-I'm preparing a paper for the IACAP 2027 conference exploring the epistemic/instrumental distinction in AI systems. This work tests the viability of my research direction before pursuing PhD applications.
+**Track 3 — Developmental Architecture for Language Models**
+Does a model whose architecture grows in response to its own representational limits produce different internal structure than a fixed-architecture model trained on the same data? This track tests the hypothesis computationally through staged language acquisition experiments.
 
 ## Background
 
-- AI Safety Researcher (AI Epistemology, Interpretable World Models, Infrastructure Sovereignty)
-- Teaching Fellow at University of Warwick
-- SFHEA (Senior Fellow of the Higher Education Academy) candidate
+- AI Researcher — Psychology-Grounded AI Learning
+- Teaching Fellow, Computer Science, University of Warwick
+- SFHEA candidate
+- Independent researcher, self-funded
 
 ## Contact
 
-- Email: jomar.alcantara@gmail.com
 - GitHub: [joealcantara](https://github.com/joealcantara)
 - Twitter/X: [@joealcantara_](https://twitter.com/joealcantara_)
 
 ---
 
-*This site shares research progress, pilot studies, and mini-articles on AI safety. All work is pre-publication and subject to revision.*
+*This site shares research progress, pilot studies, and writing on AI. All work is pre-publication and subject to revision.*
