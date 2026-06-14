@@ -4,33 +4,39 @@ draft = false
 title = 'Research'
 +++
 
-My research programme — Psychology-Grounded AI Learning — asks whether grounding AI systems in the principles developmental psychology has established for genuine understanding produces systems that fail less systematically than those trained on statistical co-occurrence alone.
+My research applies psychology and philosophy of mind to AI — asking what AI looks like if we build it the way we know minds actually work, rather than scaling statistical pattern matching.
 
-Current AI failures are not incidental. A system that recommends walking to a car wash has no world model. A system that cannot count letters in a word has no grounded structural representation. These failures are predictable architectural consequences of training on static, randomly ordered corpora with fixed architectures — and developmental psychology tells us something about why.
+The three tracks below are three different applications of that frame: what kind of AI is safe (Track 1), how AI should handle knowledge (Track 2), and how AI should learn (Track 3).
 
 ---
 
 ## Track 1 — Epistemic vs Instrumental AI
 
-**Research question:** Is the epistemic/instrumental distinction formally coherent, and what safety properties does it guarantee?
+**The problem:** We are building more agentic AI before solving alignment. The proposed solutions — better goals, better alignment techniques — remain within the paradigm that caused the problem. The alternative is a category of AI that is structurally incapable of misalignment.
 
-The field conflates two categorically different things: systems that *produce knowledge* and systems that *pursue goals*. A system without goals cannot deceive — there is nothing to hide. The safety-relevant failures of AI concentrate in the instrumental category. This track establishes the distinction formally, grounded in the belief/desire literature (Hume, Dennett), intentionality theory (Searle), and recent AI safety work (Bengio et al.).
+**Central question:** Does the absence of agency and goals in an epistemic system provide structural safety guarantees that aligned instrumental systems cannot?
+
+The field conflates two categorically different things: systems that *produce knowledge* and systems that *pursue goals*. A system without goals cannot deceive — there is nothing to hide. This track establishes the distinction formally, grounded in the belief/desire literature (Hume, Dennett), intentionality theory (Searle), and recent AI safety work (Bengio et al.).
 
 ---
 
 ## Track 2 — Memory Architecture and Retrieval Quality
 
-**Research question:** Is context window size the right metric for memory in language models?
+**The problem:** The field is treating memory as a buffer-size problem — expanding context windows. Cognitive psychology tells us the constraint is not buffer size; it is retrieval quality.
 
-Cowan's embedded-processes model establishes that working memory is activated long-term memory, with approximately four chunks in the attentional focus at any moment. The constraint is not buffer size — it is retrieval quality. A chess grandmaster holds four chunks in working memory but navigates decades of pattern knowledge in milliseconds via fast associative retrieval. This track argues for retrieval quality as the primary benchmark dimension and designs a benchmark instrument from six cognitive science dimensions.
+**Central question:** Is retrieval quality from a well-organised long-term store the right metric for evaluating memory in LLMs — and what does that benchmark look like?
+
+Cowan's embedded-processes model establishes that working memory is activated long-term memory, with approximately four chunks in the attentional focus at any moment. A chess grandmaster holds four chunks in working memory but navigates decades of pattern knowledge in milliseconds via fast associative retrieval. This track argues for retrieval quality as the primary benchmark dimension and designs a benchmark instrument from six cognitive science dimensions.
 
 ---
 
 ## Track 3 — Developmental Architecture for Language Models
 
-**Research question:** Does a model whose architecture grows in response to its own representational limits produce different internal structure than a fixed-architecture model trained on the same staged data?
+**The problem:** Current LLMs fail systematically — not randomly — because they learn without developmental structure. No grounded foundation, no conceptual dependency ordering, no capacity that grows with understanding. Humans do not brute-force learning; we build hierarchically on what we already know.
 
-Piaget established that concrete operational thinking precedes formal operational thinking. Vygotsky established that new learning must attach to existing knowledge structures. Pearl established that genuine causal reasoning requires representations at the interventional level. Current training regimes implement none of these principles. This track tests computationally whether they matter — through staged language acquisition experiments in which model capacity grows dynamically rather than being fixed at architecture design time.
+**Central question:** Does imposing developmental structure — grounded initialisation, dependency-ordered curriculum, dynamically growing capacity — produce models with more genuine understanding than scale alone?
+
+Piaget established that concrete operational thinking precedes formal operational thinking. Vygotsky established that new learning must attach to existing knowledge structures. Pearl established that genuine causal reasoning requires representations at the interventional level. This track tests computationally whether implementing those principles produces models that fail less systematically than those trained on statistical co-occurrence alone.
 
 ---
 

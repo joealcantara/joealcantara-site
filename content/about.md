@@ -4,24 +4,24 @@ draft = false
 title = 'About'
 +++
 
-I work at the intersection of cognitive science, philosophy of mind, and machine learning. My research asks whether grounding AI systems in the principles developmental psychology has established for genuine understanding — Piaget, Vygotsky, Pearl — produces systems that fail less systematically than those trained on statistical co-occurrence alone.
+I work at the intersection of psychology, philosophy of mind, and machine learning — applying what we know about how minds actually work to how we build AI systems.
 
-## Research Programme: Psychology-Grounded AI Learning
+## Research Programme
 
-Three tracks, four papers, one motivating problem. Current AI failures are not incidental — they are predictable architectural consequences of how systems are trained. Developmental psychology offers a framework for why, and a direction for how to build differently.
+Three tracks, one methodological commitment. The field builds AI by scaling statistical pattern matching. My research asks what happens when you build it the way psychology and philosophy tell us minds actually work instead.
 
 **Track 1 — Epistemic vs Instrumental AI (primary)**
-The field conflates systems that produce knowledge with systems that pursue goals. A system without goals cannot deceive. This track establishes the epistemic/instrumental distinction formally, grounded in the belief/desire literature and recent AI safety work.
+We are building more agentic AI before solving alignment. The proposed solutions remain within the paradigm that caused the problem. This track asks whether a system without goals is structurally incapable of misalignment — and establishes the epistemic/instrumental distinction formally, grounded in philosophy of mind and AI safety research.
 
 **Track 2 — Memory Architecture and Retrieval Quality**
-Context window size is the wrong metric for memory in language models. The constraint is retrieval quality, not buffer size. This track argues for retrieval quality as the primary benchmark dimension and designs a benchmark from six cognitive science dimensions.
+The field is solving the wrong problem. Context window size is a buffer-size metric. Cognitive psychology (Cowan) tells us the real constraint is retrieval quality from a well-organised long-term store. This track argues for retrieval quality as the right benchmark dimension and designs the instrument.
 
 **Track 3 — Developmental Architecture for Language Models**
-Does a model whose architecture grows in response to its own representational limits produce different internal structure than a fixed-architecture model trained on the same data? This track tests the hypothesis computationally through staged language acquisition experiments.
+Current LLMs fail systematically because they learn without developmental structure. Humans build understanding hierarchically — grounded, ordered by conceptual dependency, with capacity that grows. This track tests computationally whether imposing that structure produces models that fail less.
 
 ## Background
 
-- AI Researcher — Psychology-Grounded AI Learning
+- AI Researcher — Psychology and Philosophy-Informed AI
 - Teaching Fellow, Computer Science, University of Warwick
 - SFHEA candidate
 - Independent researcher, self-funded
