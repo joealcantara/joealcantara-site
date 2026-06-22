@@ -4,39 +4,23 @@ draft = false
 title = 'Research'
 +++
 
-My research applies psychology and philosophy of mind to AI — asking what AI looks like if we build it the way we know minds actually work, rather than scaling statistical pattern matching.
+My research applies psychology and philosophy of mind to AI — asking what AI looks like if we build it the way we know minds actually work, rather than scaling statistical pattern matching. It has narrowed to a single thesis.
 
-The three tracks below are three different applications of that frame: what kind of AI is safe (Track 1), how AI should handle knowledge (Track 2), and how AI should learn (Track 3).
+## Epistemic Developmental AI
 
----
+**Curiosity is the hinge.** My research looks at building language models that learn the way children do — driven by curiosity rather than a training objective, grounded in concrete concepts before abstract ones, and growing their own capacity in response to what they cannot yet represent. The idea is that a system built this way recovers the structure that *generates* language and reasoning, rather than its surface statistics. And the same property that makes it learn this way makes it safe.
 
-## Track 1 — Epistemic vs Instrumental AI
+The claim has two faces, and they are the same property seen twice.
 
-**The problem:** We are building more agentic AI before solving alignment. The proposed solutions — better goals, better alignment techniques — remain within the paradigm that caused the problem. The alternative is a category of AI that is structurally incapable of misalignment.
+### The learning face
 
-**Central question:** Does the absence of agency and goals in an epistemic system provide structural safety guarantees that aligned instrumental systems cannot?
+Piaget established that concrete operational thinking precedes formal operational thinking. Vygotsky established that new learning must attach to existing knowledge structures. Pearl established that genuine causal reasoning requires representations at the interventional level. A model built on those principles — grounded initialisation, dependency-ordered curriculum, dynamically growing capacity — should fail less systematically than one trained on statistical co-occurrence alone.
 
-The field conflates two categorically different things: systems that *produce knowledge* and systems that *pursue goals*. A system without goals cannot deceive — there is nothing to hide. This track establishes the distinction formally, grounded in the belief/desire literature (Hume, Dennett), intentionality theory (Searle), and recent AI safety work (Bengio et al.).
+### The safety face
 
----
+We are building more agentic AI before solving alignment, and the proposed fixes — better goals, better alignment techniques — stay inside the paradigm that created the problem. The alternative is a system structurally incapable of misalignment: one that produces knowledge rather than pursuing goals. A system without goals cannot deceive — there is nothing to hide. This draws on the belief/desire literature (Hume, Dennett), intentionality theory (Searle), and recent AI safety work (Bengio et al.).
 
-## Track 2 — Memory Architecture and Retrieval Quality
-
-**The problem:** The field is treating memory as a buffer-size problem — expanding context windows. Cognitive psychology tells us the constraint is not buffer size; it is retrieval quality.
-
-**Central question:** Is retrieval quality from a well-organised long-term store the right metric for evaluating memory in LLMs — and what does that benchmark look like?
-
-Cowan's embedded-processes model establishes that working memory is activated long-term memory, with approximately four chunks in the attentional focus at any moment. A chess grandmaster holds four chunks in working memory but navigates decades of pattern knowledge in milliseconds via fast associative retrieval. This track argues for retrieval quality as the primary benchmark dimension and designs a benchmark instrument from six cognitive science dimensions.
-
----
-
-## Track 3 — Developmental Architecture for Language Models
-
-**The problem:** Current LLMs fail systematically — not randomly — because they learn without developmental structure. No grounded foundation, no conceptual dependency ordering, no capacity that grows with understanding. Humans do not brute-force learning; we build hierarchically on what we already know.
-
-**Central question:** Does imposing developmental structure — grounded initialisation, dependency-ordered curriculum, dynamically growing capacity — produce models with more genuine understanding than scale alone?
-
-Piaget established that concrete operational thinking precedes formal operational thinking. Vygotsky established that new learning must attach to existing knowledge structures. Pearl established that genuine causal reasoning requires representations at the interventional level. This track tests computationally whether implementing those principles produces models that fail less systematically than those trained on statistical co-occurrence alone.
+Goallessness is the single property that makes a system both learn well and stay safe.
 
 ---
 

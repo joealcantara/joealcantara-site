@@ -8,28 +8,22 @@ I work at the intersection of psychology, philosophy of mind, and machine learni
 
 ## Research Programme
 
-Three tracks, one methodological commitment. The field builds AI by scaling statistical pattern matching. My research asks what happens when you build it the way psychology and philosophy tell us minds actually work instead.
+My research has narrowed to a single thesis: **Epistemic Developmental AI**. The field builds AI by scaling statistical pattern matching; I ask what happens when you build it the way psychology and philosophy tell us minds actually work instead.
 
-**Track 1 — Epistemic vs Instrumental AI (primary)**
-We are building more agentic AI before solving alignment. The proposed solutions remain within the paradigm that caused the problem. This track asks whether a system without goals is structurally incapable of misalignment — and establishes the epistemic/instrumental distinction formally, grounded in philosophy of mind and AI safety research.
+Curiosity is the hinge. A system driven by curiosity rather than a goal, built developmentally — grounded in concrete concepts, ordered by conceptual dependency, growing its own capacity — should recover the structure that *generates* language and reasoning rather than its surface statistics. And the same goallessness that makes it learn this way makes it safe: a system that only seeks to understand has no substrate for misalignment. It cannot deceive, because there is nothing it is trying to bring about.
 
-**Track 2 — Memory Architecture and Retrieval Quality**
-The field is solving the wrong problem. Context window size is a buffer-size metric. Cognitive psychology (Cowan) tells us the real constraint is retrieval quality from a well-organised long-term store. This track argues for retrieval quality as the right benchmark dimension and designs the instrument.
-
-**Track 3 — Developmental Architecture for Language Models**
-Current LLMs fail systematically because they learn without developmental structure. Humans build understanding hierarchically — grounded, ordered by conceptual dependency, with capacity that grows. This track tests computationally whether imposing that structure produces models that fail less.
+For the full argument — the learning face and the safety face — see my [research](/research/).
 
 ## Background
 
-- AI Researcher — Psychology and Philosophy-Informed AI
+- AI Safety Researcher — Epistemic Developmental AI
 - Teaching Fellow, Computer Science, University of Warwick
-- SFHEA candidate
-- Independent researcher, self-funded
+- Independent researcher
 
 ## Contact
 
 - GitHub: [joealcantara](https://github.com/joealcantara)
-- Twitter/X: [@joealcantara_](https://twitter.com/joealcantara_)
+- X: [@joealcantara_](https://x.com/joealcantara_)
 
 ---
 
