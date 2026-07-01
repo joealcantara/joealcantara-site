@@ -1,6 +1,6 @@
 +++
 date = '2026-07-01'
-draft = false
+draft = true
 title = 'Adventures in Computational Neuroplasticity: Intro'
 summary = "Why I'm running a series of small experiments that rebuild the brain's plasticity mechanisms in code — one at a time, honestly, then combined. A map of where this is going."
 tags = ['neuroplasticity', 'developmental-ai', 'research', 'notes']

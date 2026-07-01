@@ -1,6 +1,6 @@
 +++
 date = '2026-07-01'
-draft = false
+draft = true
 title = 'Adventures in Computational Neuroplasticity: Structural Plasticity (Part 1)'
 summary = "A toy experiment on the oldest trick in the book — build a network too big, then cut it down. It turns out growing one up beats cutting one down, and the reason is more interesting than the result."
 tags = ['neural networks', 'pruning', 'plasticity', 'notes']
