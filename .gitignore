@@ -12,3 +12,6 @@ resources/_gen/
 *~
 .idea/
 .vscode/
+
+# direnv / nix devshell
+.direnv/

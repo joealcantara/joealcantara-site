@@ -67,3 +67,7 @@ theme = 'PaperMod'
 # Build settings
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+# Allow raw HTML in markdown (used for side-by-side figure/table layouts)
+[markup.goldmark.renderer]
+  unsafe = true
